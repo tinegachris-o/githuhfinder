@@ -1,5 +1,5 @@
 import UserSearch from "./components/UserSearch";
-
+import { Toaster } from "sonner";
 const App = () => {
   return (
     <div className="container ">
@@ -7,6 +7,7 @@ const App = () => {
         👨‍💻 Hello Chris — You’re a Software Engineer in the Making 🚀
       </h1>
       <UserSearch />
+      <Toaster position="top-right" richColors />
     </div>
   );
 };
