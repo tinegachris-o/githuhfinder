@@ -5,7 +5,7 @@ import UserCard from "./UserCard";
 import RecentSearches from "./RecentSearches";
 import { useDebounce } from "use-debounce";
 import { searchGithubUser } from "../api/github";
-import type { GitHubUser } from "../types";
+//import type { GitHubUser } from "../types";
 import SuggestionDropDown from "./suggestionDropDown";
 const UserSearch = () => {
   const [username, setUsername] = useState("");

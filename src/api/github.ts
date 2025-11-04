@@ -1,4 +1,4 @@
-import { Query } from "@tanstack/react-query";
+//import { Query } from "@tanstack/react-query";
 
 /*export const fetchGithubUser = async (username: string) => {
   const res = await fetch(
